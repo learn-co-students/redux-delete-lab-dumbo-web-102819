@@ -9,7 +9,9 @@ class Bands extends Component {
     render() {
         return (
             <div>
+                <ul>
                 {this.renderBands()}
+                </ul>
             </div>
         );
     }
